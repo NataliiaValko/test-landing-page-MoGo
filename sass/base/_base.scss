@@ -1,0 +1,19 @@
+body {
+  font-family: $font-family-main;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+  background-color: $color-light-main;
+  color: $color-dark-main;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

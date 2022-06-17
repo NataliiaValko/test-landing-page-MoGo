@@ -1,0 +1,37 @@
+.flash {
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  color: rgba(255, 255, 255, 0.662);
+  font-size: 120px;
+  transform: scale(0);
+}
+
+.animation-flash {
+  animation: flash 3000ms linear 0s infinite alternate none;
+
+  .team__photo-wrapper:hover & {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes flash {
+  0% {
+    transform: scale(0) rotate(0deg);
+  }
+  1% {
+    transform: scale(0.5) rotate(180deg);
+  }
+  2% {
+    transform: scale(1) rotate(90deg);
+  }
+  3% {
+    transform: scale(0.5) rotate(360deg);
+  }
+  4% {
+    transform: scale(0) rotate(0deg);
+  }
+  100% {
+    transform: scale(0) rotate(0deg);
+  }
+}

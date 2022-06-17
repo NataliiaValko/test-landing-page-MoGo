@@ -1,0 +1,29 @@
+.service__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.service__item {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 340px;
+  margin: 30px;
+}
+
+.service__icon {
+  margin-right: 28px;
+  fill: $color-accent-neutral;
+}
+
+.service__title {
+  font-family: $font-family-accent;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

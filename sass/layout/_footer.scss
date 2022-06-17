@@ -1,0 +1,26 @@
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer__text {
+  font-family: $font-family-accent;
+  font-size: 14px;
+}
+
+.footer__link {
+  color: $color-accent-primary;
+}

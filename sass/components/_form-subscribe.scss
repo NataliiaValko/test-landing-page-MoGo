@@ -1,0 +1,17 @@
+.form-subscribe {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.form-subscribe__input {
+  display: inline-block;
+  width: 230px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  padding: 13px;
+  &::placeholder {
+    line-height: 1.6;
+    color: #cccccc;
+  }
+}

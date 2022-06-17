@@ -1,0 +1,31 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 6px 30px;
+  color: $color-light-main;
+  border: 3px solid $color-light-main;
+  font-family: $font-family-accent;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color $time-main $timing-function-main,
+    background-color $time-main $timing-function-main;
+
+  &:hover,
+  &:focus {
+    @extend .button--active;
+  }
+}
+
+.button--active {
+  background-color: $color-accent-primary;
+  border-color: $color-accent-primary;
+}
+
+.button--neutral {
+  @extend .button;
+  background-color: $color-accent-neutral;
+  border-color: $color-accent-neutral;
+}
