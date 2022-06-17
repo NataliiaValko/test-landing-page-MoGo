@@ -40,8 +40,8 @@ p {
 }
 
 .logotype {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -330,7 +330,6 @@ p {
   margin-right: auto;
   width: 1920px;
   height: 1000px;
-  padding-top: 15px;
   padding-bottom: 230px;
   background-repeat: no-repeat;
   background-position: center;
@@ -362,7 +361,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 150px;
   text-transform: uppercase;
-  margin-bottom: 124px;
+  margin-bottom: 104px;
 }
 
 .header {

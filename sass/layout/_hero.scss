@@ -3,14 +3,10 @@
   margin-right: auto;
   width: 1920px;
   height: 1000px;
-
-  padding-top: 15px;
   padding-bottom: 230px;
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9) 0%,
@@ -50,5 +46,5 @@
   font-family: $font-family-accent;
   font-size: 150px;
   text-transform: uppercase;
-  margin-bottom: 124px;
+  margin-bottom: 104px;
 }
