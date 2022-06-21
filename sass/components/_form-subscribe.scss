@@ -8,10 +8,10 @@
   display: inline-block;
   width: 230px;
   height: 40px;
-  border: 1px solid #e7e7e7;
+  border: 1px solid $color-input-border;
   padding: 13px;
   &::placeholder {
     line-height: 1.6;
-    color: #cccccc;
+    color: $color-input-placeholder;
   }
 }

@@ -38,8 +38,8 @@
   opacity: 0;
   background-image: linear-gradient(
     to top,
-    rgba(252, 227, 138, 0.9) 0%,
-    rgba(243, 129, 129, 0.9) 100%
+    $color-accent-secondary-alfa 0%,
+    $color-accent-primary-alfa 100%
   );
   transition: opacity $time-main $timing-function-main;
 

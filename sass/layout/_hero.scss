@@ -9,8 +9,8 @@
   background-size: cover;
   background-image: linear-gradient(
       to top,
-      rgba(252, 227, 138, 0.9) 0%,
-      rgba(243, 129, 129, 0.9) 100%
+      $color-accent-secondary-alfa 0%,
+      $color-accent-primary-alfa 100%
     ),
     url(../images/hero/eagle.jpg);
 
@@ -20,10 +20,10 @@
     screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(
         to top,
-        rgba(252, 227, 138, 0.9) 0%,
-        rgba(243, 129, 129, 0.9) 100%
+        $color-accent-secondary-alfa 0%,
+        $color-accent-primary-alfa 100%
       ),
-      url('../images/hero/eagle@2x.jpg');
+      url(../images/hero/eagle@2x.jpg);
   }
 }
 
@@ -36,6 +36,8 @@
 }
 
 .hero__subtitle {
+  display: block;
+  text-transform: capitalize;
   font-family: $font-family-secondary;
   font-size: 72px;
   font-weight: 400;
